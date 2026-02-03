@@ -1,0 +1,14 @@
+# Exclude Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Exclude local environment and logs
+venv/
+.env
+*.log
+
+# Exclude OS-specific junk
+.DS_Store
+Thumbs.db
